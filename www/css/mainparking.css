@@ -1,0 +1,21 @@
+#mainpage
+{
+	background-image: url(../img/parking2.jpg);
+	background-size: cover;	
+}
+
+#mainabout
+{
+	margin-top:10%;	
+    margin-left: 0px;
+    margin-right: 0px;
+	background-color: white;
+	opacity: .85;
+	
+}
+article
+{
+	width: 70%;	
+	margin: 0 auto;
+	padding:20px;
+}
