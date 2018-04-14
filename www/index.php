@@ -3,14 +3,14 @@
     <head>
         <title>Home page</title>
         <?php require_once("php/MySiteDB.php");?>		
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
         <link rel="stylesheet" type="text/css" href="css/parking.css"> 
         <link rel="stylesheet" type="text/css" href="css/mainparking.css"> 
     </head>
     <body id=mainpage>
 	<header>
         <div class="menu">
-            <button class="bmenu"><a href="php/firstBui.php">1,2 очередь</a></button>
+           <!--<button class="bmenu"><a href="php/firstBui.php">1,2 очередь</a></button>-->
             <button class="bmenu"><a href="php/thirdBui.php">3 очередь</a></button>
             <button class="bmenu"><a href="php/fothBui.php">4 очередь</a></button> 
 			<button class="bmenu"><a href="php/zayavki.php">Заявки</a></button>			

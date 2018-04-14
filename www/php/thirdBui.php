@@ -2,7 +2,6 @@
     <head>
         <title>3 очередь</title>
         <?php require_once("../php/MySiteDB.php");?>
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
         
 		<link rel="stylesheet" type="text/css" href="../css/parking.css">
 		<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
@@ -26,7 +25,7 @@
 			<fieldset name="mybug">
                 <legend>Паркинг</legend>
                 <label id="spotnumber">Номер парковочного места:</label><input type="hidden" id="spot_number" name = "spot_number" /><br>
-				<label id="spotwidth">Номер парковочного места:</label><br>
+                <label id="spotwidth">Номер парковочного места:</label><br>
                 <label id="spotprice">Полная стоимость:</label><br>
                 <label>Способ оплаты:</label><br>
                 <input type="radio" name="pay" value="Единовременная"><label>Единовременная</label><br>
