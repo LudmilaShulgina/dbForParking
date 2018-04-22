@@ -44,12 +44,12 @@
 				"Цена места "+ price+" pуб.<br>";
 				
 				var info= document.getElementById("info");
-				info.innerHTML= info.innerHTML+"<div id=\"sale\"><h4>Скидки и акции</h4></div><div id=\"saleInfo\" style=\"display: none\">"+
+				info.innerHTML= info.innerHTML+"<div class=\"button_wrap\"><div id=\"sale\"><h4>Скидки и акции</h4></div><div id=\"saleInfo\" style=\"display: none\">"+
 				"<ul type=\"circle\" id=\"circle\"><li>Скидка 10% при единовременной оплате.<br> Стоимость места составит"+ price*0.9+ "</li>"+
 				"<li>Рассрочка до конца 2019 года:<br> 150000 первый взнос, далее по "+rassum+" рублей в месяц</li>"+
 				"<li>Дополнительная скидка 5% при повторной покупке</li>"+
 				"</ul>"+
-				"</div><div id=\"bron\"><h4>Заявка на бронь</h4></div>";
+				"</div><div id=\"bron\"><h4>Заявка на бронь</h4></div></div>";
 				var bron = document.getElementById("bron"); 
 				
 				$("#spotnumber").text("Номер  парковочного места: "+number);

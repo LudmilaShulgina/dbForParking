@@ -7,7 +7,7 @@
 					var c= num[i];
 					
 					var choise=svgDoc.getElementById(c);
-					choise.setAttribute("class", "st1");										
+				choise.setAttribute("class", "st1");
 				};
 				
 			$(svgDoc).click(function(event) {

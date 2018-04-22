@@ -12,7 +12,6 @@
         <div class="menu">
            <!--<button class="bmenu"><a href="php/firstBui.php">1,2 очередь</a></button>-->
             <button class="bmenu"><a href="php/thirdBui.php">3 очередь</a></button>
-            <button class="bmenu"><a href="php/fothBui.php">4 очередь</a></button> 
 			<button class="bmenu"><a href="php/zayavki.php">Заявки</a></button>			
         </div>  
 	</header>

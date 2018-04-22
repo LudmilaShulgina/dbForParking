@@ -1,4 +1,4 @@
-﻿<html>
+﻿html>
     <head>
         <title>1 и 2 очереди</title>
         <?php require_once("../php/MySiteDB.php");?>
