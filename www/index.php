@@ -1,6 +1,6 @@
 ﻿
 <html>
-<!--Новые изменения!!!-->
+<!--Новые изменения-->
     <head>
         <title>Home page</title>
         <?php require_once("php/MySiteDB.php");?>		
